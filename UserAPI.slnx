@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GameStore.Users.Api/GameStore.Users.Api.csproj" />
+    <Project Path="src/GameStore.Users.Application/GameStore.Users.Application.csproj" />
+    <Project Path="src/GameStore.Users.Domain/GameStore.Users.Domain.csproj" />
+    <Project Path="src/GameStore.Users.Infrastructure/GameStore.Users.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GameStore.Users.Tests/GameStore.Users.Tests.csproj" />
+  </Folder>
+</Solution>
+

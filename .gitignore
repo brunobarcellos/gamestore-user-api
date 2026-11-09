@@ -1,0 +1,71 @@
+## .NET / Build Artifacts
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+out/
+publish/
+
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.sln.iml
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+## NuGet & MSBuild
+.nuget/
+.dotnet/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+project.assets.json
+project.fragment.lock.json
+artifacts/
+
+## Test Results & Code Coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+coveragereport/
+*.coverage
+*.coveragexml
+
+## SQLite Local Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+## Environment & Secrets
+.env
+.env.*
+appsettings.Local.json
+appsettings.*.local.json
+
+## macOS / OS Generated Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
